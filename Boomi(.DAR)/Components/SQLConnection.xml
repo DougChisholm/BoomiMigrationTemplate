@@ -1,1 +1,7 @@
+<ConnectionComponent id="conn-sql-01" name="Azure SQL Connection" type="DatabaseConnector">
+  <DatabaseType>SQLSERVER</DatabaseType>
+  <ConnectionURL>jdbc:sqlserver://mydb.database.windows.net:1433;database=FinanceDB</ConnectionURL>
+  <Username>${DB_USER}</Username>
+  <Password encrypted="true">${DB_PASS}</Password>
+</ConnectionComponent>
 
