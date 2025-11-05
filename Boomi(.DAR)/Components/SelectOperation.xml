@@ -1,1 +1,5 @@
 
+<OperationComponent id="op-select-01" name="Select Customers" type="DatabaseOperation">
+  <SQL>SELECT CustomerId, Name, Email FROM dbo.Customer WHERE Active = 1</SQL>
+  <ProfileOut>prof-out-01</ProfileOut>
+</OperationComponent>
