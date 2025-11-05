@@ -1,1 +1,10 @@
-
+<Manifest version="1.0">
+  <Process name="SyncCustomerData" version="1.0.0" id="proc-123"/>
+  <Component type="Connection" name="Azure SQL Connection" id="conn-sql-01"/>
+  <Component type="Operation" name="Select Customers" id="op-select-01"/>
+  <Component type="Profile" name="Customer Input Profile" id="prof-in-01"/>
+  <Component type="Profile" name="Customer Output Profile" id="prof-out-01"/>
+  <Component type="Map" name="Map Customer to CCS" id="map-ccs-01"/>
+  <Component type="Connection" name="Oracle CCS HTTP" id="conn-http-01"/>
+  <Component type="Operation" name="Send To Oracle CCS" id="op-http-01"/>
+</Manifest>
