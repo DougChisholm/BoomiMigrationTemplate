@@ -1,6 +1,6 @@
 # BoomiMigrationTemplate
 
-Fork or clone this repo then add then replace XML files in DAR folder and run the following prompt in the coding Agent:
+Fork or clone this repo then add then replace XML files in DAR folder (if you have them) and run the following prompt in the coding Agent:
 
 "Create all the Bicep, Infrastructure as code, json code to create a Logic app consumption plan (not standard plan) in Azure that can move data from SQL server to Oracle Database when new rows are added to the SQL Server database and transform the data in the way that the Boomi files do in this repo (in the Boomi folder). Create a deploy.sh file that can be run on one terminal command that can deploy the solution to azure. The logic app should trigger when a new item is added in the SQL database.
 
